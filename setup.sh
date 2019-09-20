@@ -1,3 +1,5 @@
+!#/bin/shell
+
 sudo apt install
 sudo apt-get install
 sudo apt upgrade
