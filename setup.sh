@@ -5,7 +5,7 @@ sudo apt install
 sudo apt-get install
 sudo apt update
 sudo apt-get update
-apt-get install -y default-jdk maven unzip
+sudo apt-get install -y default-jdk maven unzip
 
 echo " ----- setting AWS-CLI -----"
 sudo apt-get install awscli
