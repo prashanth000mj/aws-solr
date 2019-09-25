@@ -9,6 +9,10 @@ password="dtesolrdb_123DTE"/>
 query="SELECT * FROM Employee">
 <field column="id" name="id"/>
 <field column="name" name="name"/>
+<field column="gender" name="gender"/>
+<field column="age" name="age"/>
+<field column="email" name="email"/>
+<field column="dept" name="dept"/>
 </entity>
 </document>
 </dataConfig>
