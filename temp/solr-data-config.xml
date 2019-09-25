@@ -3,7 +3,7 @@
 driver="com.mysql.jdbc.Driver"
 url="jdbc:mysql://3.16.152.6:3306/solrpoc"
 user="prashanth000mj"
-password="dtesolrdb123"/>
+password="dtesolrdb_123DTE"/>
 <document>
 <entity name="entity_name"
 query="SELECT * FROM Employee">
