@@ -119,8 +119,6 @@
     <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false" />
     <field name="_version_" type="long" indexed="true" stored="true"/>
  	<field name="name" type="text_general" indexed="true" stored="true" />
-	<field name="url" type="string" indexed="true" stored="true" />
-	<!-- stored=false, if your text-general field, is only meant for boosting-->
 	<field name="gender" type="string" indexed="true" stored="true" />
 	<field name="dept" type="string" indexed="true" stored="true" />
 	<field name="age" type="date" indexed="true" stored="true"/>
