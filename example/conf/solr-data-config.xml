@@ -1,0 +1,18 @@
+<dataConfig>
+<dataSource type="JdbcDataSource"
+driver="com.mysql.jdbc.Driver"
+url="jdbc:mysql://3.16.152.6:3306/solrpoc"
+user="prashanth000mj"
+password="dtesolrdb_123DTE"/>
+<document>
+<entity name="entity_name"
+query="SELECT * FROM Employee">
+<field column="id" name="id"/>
+<field column="name" name="name"/>
+<field column="gender" name="gender"/>
+<field column="age" name="age"/>
+<field column="email" name="email"/>
+<field column="dept" name="dept"/>
+</entity>
+</document>
+</dataConfig>
