@@ -1,12 +1,11 @@
-FROM ubuntu:18.04
+FROM openjdk:8
 
 ADD solr* /temp/
 
-RUN apt-get update && apt-get install -y \
-    default-jdk \
+RUN apt update && apt install -y \
     lsof \
     unzip && mv /temp/solr-6.6.1 /temp/solr
 
 EXPOSE 8983
 
-#CMD ["/temp/solr/bin/solr", "start", "-f", "-force"]
+CMD ["./temp/solr/bin/solr", "start", "-f", "-force"]
